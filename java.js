@@ -1,13 +1,26 @@
-function calc() {
+const x = prompt('input Number')
 
-const mass = prompt("what is your mass")
-
-const height = prompt("what is your height")
-
-const result = mass / (height * height)
-
-console.log('your bmi is'+ result);
+function odd(number) {
+for (let i = 0; i <= number; i++) {
+    if (i % 2 !== 0) {
+        console.log(i)
+    }
+}
 }
 
-calc();
+odd(x)
+// const element = document.getElementById("add");
+// const number = document.getElementById("example")
+// console.log(element.innerHTML)
+// element.addEventListener("click", function(){
+//     let x = number.innerHTML
+//     x= Number(x)
+//  number.innerHTML=x + 1});
 
+// const subs = document.getElementById("sub")
+
+// subs.addEventListener("click", function(){
+//     let x = number.innerHTML
+//     x = Number(x)
+//     number.innerHTML = x - 1
+// });
